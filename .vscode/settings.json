@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6af30df1-e133-4d28-9875-0b3c3d491aef/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/GBOXORING6700",
+    "appService.deploySubpath": "."
+}
