@@ -1,12 +1,9 @@
 # pip install -r requirements.txt
 
 # FastAPI --------------------------------------
-fastapi
-uvicorn
-jinja2
-aiofiles
-python-multipart
-requests
+fastapi~=0.77.1
+uvicorn~=0.17.6
+requests~=2.27.1
 # YOLOv5 requirements
 # Base ----------------------------------------
 matplotlib>=3.2.2
@@ -14,16 +11,12 @@ numpy>=1.18.5
 opencv-python>=4.1.1
 Pillow>=7.1.2
 PyYAML>=5.3.1
-requests>=2.23.0
-scipy>=1.4.1  # Google Colab version
 torch>=1.7.0
 torchvision>=0.8.1
 tqdm>=4.41.0
-protobuf<=3.20.1 
 # https://github.com/ultralytics/yolov5/issues/8012
 
 # Logging -------------------------------------
-tensorboard>=2.4.1
 # wandb
 
 # Plotting ------------------------------------
@@ -40,31 +33,17 @@ seaborn>=0.11.0
 # openvino-dev  # OpenVINO export
 
 # Extras --------------------------------------
-ipython  # interactive notebook
-psutil  # system utilization
-thop  # FLOPs computation
+thop~=0.0.31-2005241907
 # albumentations>=1.0.3
 # pycocotools>=2.0  # COCO mAP
 # roboflow
 
 # base ----------------------------------------
-Cython
-matplotlib>=3.2.2
-numpy>=1.18.5
-opencv-python>=4.1.2
-Pillow
-PyYAML>=5.3.1
-scipy>=1.4.1
-tensorboard>=2.2
-torch>=1.7.0
-tqdm>=4.41.0
 
 # logging -------------------------------------
 # wandb
 
 # plotting ------------------------------------
-seaborn>=0.11.0
-pandas
 
 # export --------------------------------------
 # coremltools>=4.1
@@ -72,6 +51,7 @@ pandas
 # scikit-learn==0.19.2  # for coreml quantization
 
 # extras --------------------------------------
-thop  # FLOPS computation
-pycocotools>=2.0  # COCO mAP
-torchvision>=0.8.1
+wandb~=0.12.11
+flask~=2.1.1
+pydantic~=1.9.0
+export~=0.2.0
