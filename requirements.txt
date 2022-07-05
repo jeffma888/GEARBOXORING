@@ -1,6 +1,11 @@
 # pip install -r requirements.txt
 
 # FastAPI --------------------------------------
+<<<<<<< HEAD
+opencv-python
+python-multipart
+=======
+>>>>>>> e6b17c050d175fd7c8ef5d0564b1ea238a2aa19f
 fastapi~=0.77.1
 uvicorn~=0.17.6
 requests~=2.27.1
@@ -8,7 +13,6 @@ requests~=2.27.1
 # Base ----------------------------------------
 matplotlib>=3.2.2
 numpy>=1.18.5
-opencv-python>=4.1.1
 Pillow>=7.1.2
 PyYAML>=5.3.1
 torch>=1.7.0
